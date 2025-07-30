@@ -1,2 +1,2 @@
 # portfolio_site
-a website for my portfolio
+A repo for my portfolio website.
