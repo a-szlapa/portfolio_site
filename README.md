@@ -1,2 +1,7 @@
-# portfolio_site
-A repo for my portfolio website.
+# My Portfolio app
+simple portfolio app using:\
+Vite\
+React\
+TypeScript\
+TailwindCSS\
+Shadcn
