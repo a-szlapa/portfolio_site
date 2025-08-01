@@ -4,4 +4,5 @@ Vite\
 React\
 TypeScript\
 TailwindCSS\
-Shadcn
+Shadcn\
+Lucide

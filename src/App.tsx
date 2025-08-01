@@ -1,12 +1,13 @@
-import React from "react"
+import SiteHeader from "./custom-elements/custom-page-modules/SiteHeader";
 
 const App = () => {
   return (
-    <div>
-      <div className="">
-        <h1>test</h1>
+    <>
+      <div className="bg-zinc-900 min-h-screen font-(family-name:--font-roboto)">
+        <SiteHeader/>
+        
       </div>
-    </div>
+    </>
   )
 }
 
