@@ -2,7 +2,9 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-
+html{
+  background: black;
+}
 @theme {
   --font-roboto: "Roboto", sans-serif; 
 }
