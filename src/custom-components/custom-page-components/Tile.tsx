@@ -60,12 +60,12 @@ const Tile = ({
         <div className="bg-transparent w-fill">
             {/* Image section */}
             {
-                <div className="w-fit overflow-hidden">
+                <div className="w-full overflow-hidden">
                     <img 
                         src={imageUrl || 'https://placehold.co/600x500'} 
                         alt={title || 'Untitled Project'} 
                         
-                        className="rounded-2xl w-full h-full object-cover"
+                        className="rounded-2xl w-full h-full object-cover \"
                         loading="lazy"
                     />
                 </div>
