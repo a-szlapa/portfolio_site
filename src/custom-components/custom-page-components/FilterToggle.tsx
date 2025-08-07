@@ -14,7 +14,7 @@ interface FilterItem {
 const filterItems: FilterItem[] = [
   { value: "all", label: "All projects" },
   { value: "design", label: "Design", icon: PenTool },
-  { value: "development", label: "Development", icon: Code2 },
+  { value: "code", label: "Development", icon: Code2 },
   { value: "art", label: "Art", icon: Palette },
 ];
 
