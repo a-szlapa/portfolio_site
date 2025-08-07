@@ -1,4 +1,3 @@
-// src/hooks/useProjects.ts
 import type { Project } from "@/types/types";
 import { useState } from "react";
 
