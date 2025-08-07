@@ -3,10 +3,6 @@ import { Badge } from "@/components/ui/badge";
 import { 
   Palette, 
   Code2, 
-  Camera, 
-  Music, 
-  BookOpen, 
-  Gamepad2,
   SquareArrowOutUpRight,
   PenTool
 } from 'lucide-react';
