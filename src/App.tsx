@@ -1,4 +1,5 @@
 import AbautMe from "./custom-components/custom-page-components/AbautMe";
+import ProjectsList from "./custom-components/custom-page-components/ProjectsList";
 import SiteHeader from "./custom-components/custom-page-components/SiteHeader";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
         <SiteHeader/>
         <main className="flex flex-col items-center">
           <AbautMe/>
+          <ProjectsList/>
         </main>
       </div>
     </>
