@@ -61,7 +61,7 @@ const Tile = ({
     projectType
 }: TileProps) => {
     return (
-        <div className="bg-transparent w-1/2">
+        <div className="bg-transparent w-fill">
             {/* Image section */}
             {
                 <div className="w-fit overflow-hidden">
