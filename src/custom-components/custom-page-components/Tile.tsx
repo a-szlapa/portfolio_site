@@ -28,7 +28,7 @@ interface LinkItem {
     label: string;
 }
 
-interface TileProps {
+interface Props {
     imageUrl?: string;
     title: string;
     description: string;
@@ -55,7 +55,7 @@ const Tile = ({
     links = [], 
     date,
     projectType
-}: TileProps) => {
+}: Props) => {
     return (
         <div className="bg-transparent w-fill">
             {/* Image section */}
