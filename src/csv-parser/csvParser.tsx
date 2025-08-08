@@ -1,4 +1,3 @@
-import * as fs from 'fs';
 interface Link{
     label: string,
     url: string
@@ -17,7 +16,6 @@ interface PortfolioItem {
 // Function to parse the CSV data
 function parseCSV(csvData: string): PortfolioItem[] {
     const lines = csvData.split('\n');
-    const headers = lines[0].split('\t').map(header => header.trim());
     const result: PortfolioItem[] = [];
     
     for (let i = 1; i < lines.length; i++) {
